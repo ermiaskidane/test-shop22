@@ -26,7 +26,7 @@ const HomeScreens = ({ match }) => {
   return (
     <>
       <Meta />
-      <h1>Latest Products</h1>
+      <h1>Latest Gift Cards</h1>
       {loading ? (
         <Loader />
       ) : error ? (
